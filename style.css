@@ -1,0 +1,52 @@
+/* General page style */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f0f2f5;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Main Heading */
+h1 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 20px;
+}
+/* Container for all list card */
+#output {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+.card {
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px, 8px rgba(0,0,0,0.1);;
+    width: 300px;
+    transition: all 0.3s ease;
+}
+/* Card hover effect */
+.card:hover {
+    transform: translate(-5px);
+    box-shadow: 0 8px 16px rgba (0,0,0,0.2) ;
+}
+ /* List items */
+ ul{
+    list-style:disc;
+    padding-left: 20px;
+ }
+ li {
+    font-size: 18px;
+    color: #555;
+    margin: 5px 0;
+ }
+ /* Container spacing between each section */
+ div {
+    margin: bottom 30px;
+ }
+ 
+ 
